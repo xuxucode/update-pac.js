@@ -12,6 +12,7 @@ const GFWLIST_PATH = "https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
 // 扩展域名，添加额外需要代理的域名
 const extendDomains = [
   'github.com',
+  'githubusercontent.com',
 ];
 
 /**

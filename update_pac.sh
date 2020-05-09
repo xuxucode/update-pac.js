@@ -6,7 +6,7 @@ readonly GFWLIST_PATH="https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt
 
 # 扩展域名，添加额外需要代理的域名
 declare -a EXTEND_DOMAINS
-EXTEND_DOMAINS=( github.com )
+EXTEND_DOMAINS=( github.com githubusercontent.com )
 readonly EXTEND_DOMAINS
 
 echo -e "下载 gfwlist.txt..."
@@ -18,11 +18,11 @@ var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
 var domains = [
 EOF
 
+# 域名
 for line in "${EXTEND_DOMAINS[@]}"; do
   echo "  \"${line}\"," >> pac.js
 done;
 
-# 域名
 while IFS= read -r line; do
   if [[ "${line}" == .* ]]; then
     echo "  \"${line:1}\"," >> pac.js
