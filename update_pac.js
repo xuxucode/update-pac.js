@@ -13,6 +13,7 @@ const GFWLIST_PATH = "https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
 const extendDomains = [
   'github.com',
   'githubusercontent.com',
+  'github.githubassets.com',
 ];
 
 /**
