@@ -14,6 +14,12 @@ const extendDomains = [
   'github.com',
   'githubusercontent.com',
   'github.githubassets.com',
+  'etherscan.io',
+  'fontawesome.com',
+  'cloudfront.net',
+  'doubleclick.net',
+  'flutter.dev',
+  'ytimg.com',
 ];
 
 /**
