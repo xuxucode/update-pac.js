@@ -20,6 +20,9 @@ const extendDomains = [
   'doubleclick.net',
   'flutter.dev',
   'ytimg.com',
+  'dartpad.dev',
+  'dart.dev',
+  'pub.dev',
 ];
 
 /**
