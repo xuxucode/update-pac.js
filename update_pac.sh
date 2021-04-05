@@ -6,7 +6,7 @@ readonly GFWLIST_PATH="https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt
 
 # 扩展域名，添加额外需要代理的域名
 declare -a EXTEND_DOMAINS
-EXTEND_DOMAINS=( github.com githubusercontent.com github.githubassets.com )
+EXTEND_DOMAINS=( github.com githubusercontent.com github.githubassets.com ycombinator.com )
 readonly EXTEND_DOMAINS
 
 echo -e "下载 gfwlist.txt..."

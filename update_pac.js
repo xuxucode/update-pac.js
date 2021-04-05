@@ -23,6 +23,7 @@ const extendDomains = [
   'dartpad.dev',
   'dart.dev',
   'pub.dev',
+  'ycombinator.com',
 ];
 
 /**
